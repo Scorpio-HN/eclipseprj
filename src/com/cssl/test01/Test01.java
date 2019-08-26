@@ -12,7 +12,7 @@ import java.net.UnknownHostException;
 public class Test01 {
  public static void main(String[] args) throws UnknownHostException {
 	//测试提交代码
-	 
+	 //我做了一些替换功能
 	 InetAddress n1=InetAddress.getLocalHost();
 	System.out.println("n1:"+n1);
 	System.out.println("n2:"+n1.getHostName());
