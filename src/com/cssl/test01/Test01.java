@@ -11,7 +11,9 @@ import java.net.UnknownHostException;
  * */
 public class Test01 {
  public static void main(String[] args) throws UnknownHostException {
-	InetAddress n1=InetAddress.getLocalHost();
+	//测试提交代码
+	 
+	 InetAddress n1=InetAddress.getLocalHost();
 	System.out.println("n1:"+n1);
 	System.out.println("n2:"+n1.getHostName());
 	System.out.println("n3:"+n1.getHostAddress());
